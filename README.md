@@ -5,5 +5,5 @@ An interactive Substrate node generator based off [Substrate Node Template](http
 Usage:
 
 ```shell
-cargo generate --git https://github.com/dadepo/subbstrate-template
+cargo generate --git https://github.com/dadepo/substrate-template
 ```

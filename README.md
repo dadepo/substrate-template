@@ -4,6 +4,14 @@ An interactive Substrate node generator based off [Substrate Node Template](http
 
 Usage:
 
+First install cargo-generate, if you do not have it already. 
+
+```
+cargo install cargo-generate
+```
+
+Then use:
+
 ```shell
 cargo generate --git https://github.com/dadepo/substrate-template
 ```

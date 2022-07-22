@@ -1,0 +1,31 @@
+[template]
+cargo_generate_version = ">=0.15.2"
+ignore = ["docs", "Cargo.lock"]
+
+[placeholders.license]
+type = "string"
+prompt = "What license to use? Note: Can be set directly via -d license=<value> flag"
+choices = ["MIT", "Unrestricted"]
+default = "MIT"
+
+[placeholders.use_nix]
+type = "bool"
+prompt = "Add shell.nix and use it to manage the development dependencies"
+default = false
+
+[placeholders.use_docker]
+type = "bool"
+prompt = "Add docker-compose and script files to run substrate in a container"
+default = false
+
+[conditional.'license == "MIT"']
+ignore = ["LICENSE-UNRESTRICTED"]
+
+[conditional.'license == "Unrestricted"']
+ignore = ["LICENSE-MIT"]
+
+[conditional.'use_nix == false']
+ignore = ["shell.nix"]
+
+[conditional.'use_docker == false']
+ignore = ["docker-compose.yml", "scripts/docker_run.sh"]

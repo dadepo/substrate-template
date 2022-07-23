@@ -1,11 +1,11 @@
 [package]
-name = "pallet-{{ crate_name }}"
+name = "pallet-{{crate_name}}"
 version = "4.0.0-dev"
 description = "FRAME pallet template for defining custom runtime logic."
-authors = ["{{ author_name }}"]
+authors = ["{{author_name}}"]
 homepage = "https://substrate.io/"
 edition = "2021"
-license = "{{ license }}"
+license = "{{license}}"
 publish = false
 repository = "https://github.com/substrate-developer-hub/substrate-node-template/"
 

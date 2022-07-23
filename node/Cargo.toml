@@ -2,7 +2,7 @@
 name = "{{ crate_name }}"
 version = "4.0.0-dev"
 description = "A fresh FRAME-based Substrate node, ready for hacking."
-authors = "{{ author_name }}"
+authors = ["{{ author_name }}"]
 homepage = "https://substrate.io/"
 edition = "2021"
 license = "{{ license }}"

@@ -2,7 +2,7 @@
 name = "pallet-{{ crate_name }}"
 version = "4.0.0-dev"
 description = "FRAME pallet template for defining custom runtime logic."
-authors = ["Substrate DevHub <https://github.com/substrate-developer-hub>"]
+authors = ["{{ author_name }}"]
 homepage = "https://substrate.io/"
 edition = "2021"
 license = "{{ license }}"

@@ -2,7 +2,7 @@
 name = "runtime-{{ crate_name }}"
 version = "4.0.0-dev"
 description = "A fresh FRAME-based Substrate runtime, ready for hacking."
-authors = ["Substrate DevHub <https://github.com/substrate-developer-hub>"]
+authors = ["{{ author_name }}"]
 homepage = "https://substrate.io/"
 edition = "2021"
 license = "{{ license }}"

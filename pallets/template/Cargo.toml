@@ -2,7 +2,7 @@
 name = "pallet-template"
 version = "4.0.0-dev"
 description = "FRAME pallet template for defining custom runtime logic."
-authors = ["{{author_name}}"]
+authors = ["{{authors}}"]
 homepage = "https://substrate.io/"
 edition = "2021"
 license = "{{license}}"

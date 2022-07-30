@@ -1,5 +1,5 @@
 [package]
-name = "pallet-{{crate_name}}"
+name = "pallet-template"
 version = "4.0.0-dev"
 description = "FRAME pallet template for defining custom runtime logic."
 authors = ["{{author_name}}"]

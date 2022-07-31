@@ -1,6 +1,6 @@
 [template]
 cargo_generate_version = ">=0.15.2"
-ignore = ["docs", "Cargo.lock"]
+ignore = ["docs", "Cargo.lock", "target"]
 
 [placeholders.license]
 type = "string"
@@ -12,6 +12,11 @@ default = "MIT"
 type = "bool"
 prompt = "Add shell.nix and use it to manage the development dependencies"
 default = false
+
+[placeholders.substrate_version]
+type = "string"
+prompt = "What substrate version do you want to use?"
+default = "polkadot-v0.9.26"
 
 [placeholders.use_docker]
 type = "bool"

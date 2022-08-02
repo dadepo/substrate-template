@@ -15,3 +15,5 @@ Then use:
 ```shell
 cargo generate --git https://github.com/dadepo/substrate-template
 ```
+
+![screen recording](demo.gif)
